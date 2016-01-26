@@ -42,7 +42,14 @@ body {
 .image-bg {
 	overflow: hidden;
 	background-size: cover;
-	background-image: url("../img/head_bg3.jpg");
+	background-image: url("../img/head_bg1.jpg");
+	background-position: center 16%;
+	position: relative;
+}
+.image-bg2 {
+	overflow: hidden;
+	background-size: cover;
+	background-image: url("../img/head_bg2.jpg");
 	background-position: center 16%;
 	position: relative;
 }

@@ -5,10 +5,12 @@ h1,h2,h3,h4,h5,h6 {
 	font-weight: 300; 
 }
 h1 {
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 42px;
 	letter-spacing: 2px;
 	line-height: 48px;
+	}
+
 }
 h2 {
 	font-weight: 100;
@@ -23,6 +25,12 @@ h3 {
 	color: #FFF;
 	letter-spacing: 5px;
 }
+h4 {
+	font-weight: 300;
+	font-size: 30px;
+	letter-spacing: 2px;
+	line-height: 48px;
+	}	
 p{
 	font-family: 'Lato', sans-serif;
 	font-weight: 100; 
@@ -44,7 +52,7 @@ body {
 	font-size: 11px;
 }
 .sliderhead {
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 50px;
 }
 .navbarlogo {
@@ -67,11 +75,21 @@ body {
 	text-align: right;
 	letter-spacing: 2px;
 }
-#home #myhead {
-    overflow: hidden;
-    background-size: cover;
-    background-image: url("../img/head_bg3.jpg");
-    background-position: center 16%;
-    position: relative;
-    padding: 136px 0 0 0;
+.downloadtextxs {
+	text-align: center;
+	letter-spacing: 2px;
+}
+.image-bg {
+	overflow: hidden;
+	background-size: cover;
+	background-image: url("../img/head_bg1.jpg");
+	background-position: center 16%;
+	position: relative;
+}
+.image-bg2 {
+	overflow: hidden;
+	background-size: cover;
+	background-image: url("../img/head_bg2.jpg");
+	background-position: center 16%;
+	position: relative;
 }
